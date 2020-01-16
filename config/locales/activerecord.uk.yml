@@ -1,0 +1,13 @@
+uk:
+  activerecord:
+    models:
+      post: "Стаття"
+    attributes:
+      post:
+        title: "Назва статті"
+        summary: "Короткий опис"
+        body: "Зміст"
+        all_tags: "Теги"
+    errors:
+      messages:
+        blank: "не може бути пустим"

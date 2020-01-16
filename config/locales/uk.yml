@@ -1,0 +1,17 @@
+uk:
+  common:
+    errors: "При заповненні виникли помилки:"
+    back: "Назад"
+  will_paginate:
+    previous_label: "&larr; Назад"
+    next_label:  "Далі &larr;"
+  posts:
+    index:
+      title: "Статті"
+    new:
+      title: "Нова стаття"
+    edit:
+      title: "Редагування статті"
+    form:
+      submit:
+        "%{action} статтю"
