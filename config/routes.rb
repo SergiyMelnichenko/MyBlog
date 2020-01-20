@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   root "posts#index"
   resources :posts
   resources :tags, only:[:show]
-
+  resources :posts do
+    resources :likes
+  end
   # namespace :admin do
 
   # end
