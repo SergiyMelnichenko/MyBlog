@@ -25,6 +25,9 @@
           <ul class="navbar-nav pul-xs-right">
             <%if user_signed_in?%>
               <li class="nav-item">
+                <%= link_to "User", edit_user_registration_path, class: "nav-link"  %>
+              </li>
+              <li class="nav-item">
                 <%= link_to "Вийти", destroy_user_session_path, method: :delete, class: "nav-link"  %>
               </li>
               <li class="nav-item">
@@ -47,7 +50,8 @@
         <div class="col-md-12">
           <% flash.each do |name, message|%>
             <div class="alert <%=bootstrap_class_for(name)%>">
-              <button class="close" data-dismiss="alert">&times;</button>
+              <!-- <button class="close" data-dismiss="alert">&times;</button> -->
+              <a href="#" class="close">&times;</a>
               <%=message%>
             </div>
           <%end%>
