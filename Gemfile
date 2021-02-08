@@ -45,7 +45,7 @@ end
 #My gems
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'mini_magick'
 # gem 'trix'
 # gem 'trix-gem', '~> 0.11.2'
